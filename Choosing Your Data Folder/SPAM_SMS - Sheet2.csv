@@ -1,0 +1,11 @@
+Data Name ,Data Type,Description
+masked_celphone_number,string,Phone numbers are treated as strings (text data type) rather than numerical data types since they may contain special characters such as + and -
+hashed_celphone_number,string,"UUIDs, or Universally Unique Identifiers, are used to identify certain information from computer systems in use. It is processed by string since it contains alphanumeric characters and hyphens.
+"
+date,"datetime, string","It is a comprehensive library for working with dates, times, and intervals of time, however it can be considered a stringstring unless specifically transformed to a datetime object in a specific programming language."
+text,string ,"Text is classified as a string data type in programming. A string is a sequence of characters that may comprise letters, digits, punctuation, and spaces.  The text presented in this section is a typical example of a string because it contains a combination of words and special characters.
+"
+carrier,string,carrier is defined as a string that is contained within an array or list and represents several telecom service providers.
+,,
+Number of Rows = 949,,
+Number of Columns = 5,,
