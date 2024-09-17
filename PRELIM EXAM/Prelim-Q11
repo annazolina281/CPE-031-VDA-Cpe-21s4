@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOf8IrRsmO62ouzV0kpfXa1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/annazolina281/CPE-031-VDA-Cpe-21s4/blob/main/PRELIM%20EXAM/Prelim-Q11\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z53LH2sBRUdW",
+        "outputId": "a085d00b-72ae-4bc7-9632-d5f0585c4b9d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "    X   Y   Z\n",
+            "0  78  84  86\n",
+            "1  85  94  97\n",
+            "2  96  89  96\n",
+            "3  80  83  72\n",
+            "4  86  86  83\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "Data_Frame = [['78', '84', '86'], [\"85\", \"94\", \"97\"], [\"96\", \"89\", \"96\"], [\"80\", \"83\", \"72\"], [\"86\", \"86\", \"83\"]]\n",
+        "df = pd.DataFrame(Data_Frame, columns = (\"X\", \"Y\", \"Z\") )\n",
+        "print(df)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "uAmV7KW8RWfX"
+      },
+      "execution_count": 1,
+      "outputs": []
+    }
+  ]
+}
